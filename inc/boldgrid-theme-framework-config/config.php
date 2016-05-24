@@ -4,6 +4,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * General Configs
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-resolve'; // Text domain
+	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 
@@ -97,15 +98,34 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['colors']['light_text'] = '#ffffff';
 	$boldgrid_framework_configs['customizer-options']['colors']['dark_text'] = '#121012';
 
-	// Fonts & Icons
-	$boldgrid_framework_configs['font']['types'] = array ( 'Yanone+Kaffeesatz:300,400|Fira+Mono:400,700' );
-	$boldgrid_framework_configs['social-icons']['size'] = 'large';
+	// Typography Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Yanone Kaffeesatz';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'uppercase';
+
+	// Typography Alternate Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Yanone Kaffeesatz';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
+
+	// Typography Navigation
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Yanone Kaffeesatz';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_size'] = 18;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'uppercase';
+
+	// Typography Body
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Fira Mono';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 175;
 
 	// Menu Locations
 	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Header";
 	$boldgrid_framework_configs['menu']['locations']['social'] = "Social Media Menu";
 	
+	// Icons
+	$boldgrid_framework_configs['social-icons']['size'] = 'large';
+
 	// Background
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_attachment'] = 'parallax';
 
@@ -116,7 +136,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		<div class="row call-to-action-wrapper">
 			<div class="col-md-12">
 				<div class="call-to-action">
-					<h2 class="slogan">MUSIC. CULTURE. PASSION.</h2>
+					<h2 class="h4 slogan">INSIGHT. CULTURE. PASSION.</h2>
 					<a class="button-primary" href="about-us">OUR STORY</a>
 				</div>
 			</div>
@@ -149,7 +169,7 @@ add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config'
  */
 function filter_logo_controls( $controls ) {
 	$controls['logo_font_family']['default'] = 'Yanone Kaffeesatz';
-	$controls['logo_font_size']['default'] = 97;
+	$controls['logo_font_size']['default'] = 100;
 	$controls['logo_margin_top']['default'] = 15;
 	$controls['logo_margin_bottom']['default'] = 25;
 	$controls['logo_line_height']['default'] = 100;

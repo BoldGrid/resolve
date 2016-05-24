@@ -7,36 +7,25 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
+	color: $text-contrast-palette-primary_5;
 
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
 	.button-primary,
+	.form-submit .submit,
 	.ninja-forms-field.btn,
-	.form-submit .submit {
-		background: $palette-primary_1;
-		color: $text-contrast-palette-primary_1;
-	}
-	.button-primary:hover,
-	.button-primary:focus,
-	.ninja-forms-field.btn:hover,
-	.ninja-forms-field.btn:focus,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus {
-		background: none;
-		color: $text-contrast-palette-primary_5;
-	}
-	.call-to-action .button-primary,
-	.background-secondary .button-primary {
-		background: $text-contrast-palette-primary_1;
-		color: $palette-primary_1;
-	}
 	.call-to-action .button-primary:hover,
 	.call-to-action .button-primary:focus,
 	.background-secondary .button-primary:hover,
 	.background-secondary .button-primary:focus {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
+	}
+	.call-to-action .button-primary,
+	.background-secondary .button-primary {
+		background: $text-contrast-palette-primary_1;
+		color: $palette-primary_1;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar-default .navbar-nav > li > a:hover,
@@ -57,7 +46,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.mod-beta p {
 		color: $text-contrast-palette-primary_2;
 	}
-	.mod-beta:after {
+	.mod-beta::after {
     	border-top: 30px solid $rgba_2;
 	}
 
@@ -101,11 +90,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-	.button-secondary:hover,
-	.button-secondary:focus {
-		background: none;
-		color: $text-contrast-palette-primary_5;
-	}
 
 	/*-----------------------------------------------
 	## 5
@@ -115,23 +99,38 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.sliver-left,
 	.sliver-right,
 	.site-footer,
+	.disabled-footer .site-footer,
 	#boldgrid-sticky-filler {
 		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.button-primary:hover,
+	.button-primary:focus,
+	.button-secondary:hover,
+	.button-secondary:focus,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.ninja-forms-field.btn:hover,
+	.ninja-forms-field.btn:focus {
+		background: none;
 		color: $text-contrast-palette-primary_5;
 	}
 	h2,
 	h3,
 	p,
 	li,
-	.widget-title,
 	.entry-title,
-	#reply-title,
 	.entry-meta,
+	.page-title,
+	.widget-title,
+	#reply-title,
 	.comments-area,
 	.mod-alpha,
 	.mod-beta-2,
 	.site-info a, 
-	.attribution a {
+	.attribution a,
+	.content-area .fa:hover,
+	.content-area .fa:focus, {
 		color: $text-contrast-palette-primary_5;
 	}
 	.mod-blockquote {
@@ -147,16 +146,104 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-title a,
 	.site-title a:hover,
 	.site-title a:focus,
+	.site-header .fa:hover,
+	.site-header .fa:focus, 
 	.site-description,
-	.slogan {
+	.slogan,
+	#secondary-menu,
+	#tertiary-menu,
+	#secondary-menu a,
+	#tertiary-menu a,
+	.menu-social li a:hover,
+	.menu-social li a:focus,
+	.widget-area caption,
+	.comment-reply-title,
+	.comments-title,
+	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
 		color: #fff;
+	}
+	.woocommerce table.shop_table,
+	.shop_table td,
+	.shop_table thead tr th,
+	.shop_table tbody th, 
+	.shop_table tfoot td, 
+	.shop_table tfoot th  {
+		border: 1px solid #fff;
+	}
+	.line-lg {
+		border-top: 5px solid #fff;
 	}
 
 	/*-----------------------------------------------
 	## Dark Text
 	-----------------------------------------------*/
-	.comment-content p {
+	.comment-content p,
+	.search-field, 
+	input, 
+	select, 
+	textarea {
 		color: #121012;
+	}
+
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
+	/* #333 */
+	.button-primary,
+	.button-secondary,
+	.form-submit .submit,
+	.ninja-forms-field.btn {
+		border: 1px solid #333;
+	}
+	.showcoupon,
+	.showcoupon:hover,
+	.showcoupon:focus,
+	.woocommerce-message a,
+	.woocommerce-message a:hover,
+	.woocommerce-message a:focus,
+	.payment_method_paypal label a,
+	.payment_method_paypal label a:hover,
+	.payment_method_paypal label a:focus,
+	#payment .payment_box p,
+	#payment label,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+	.table > tbody > tr td,
+	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
+	#secondary .table-striped > tbody > tr #today a,
+	.well .widget-title,
+	#footer-widget-area .widget-title,
+	#footer-widget-area ul li,
+	#header-widget-area ul li {
+		color: #333;	
+	}
+
+	/* #ccc */
+	.fa,
+	.menu-social li a {
+		color: #ccc;
+	}
+	.widget-area {
+	    border: 1px solid #ccc;
+	}
+
+	/* #595053 */
+	.mod-blockquote p,
+	.mod-gamma h2 {
+		color: #595053;
+	}
+
+	/* WooCommerce */
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button,
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
 	}
 }
 
