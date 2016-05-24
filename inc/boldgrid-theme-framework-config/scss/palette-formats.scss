@@ -1,0 +1,169 @@
+/*------------------------------------------------------------------------
+# Variables
+------------------------------------------------------------------------*/
+$rgba_2 : rgba($palette-primary_2, 0.6);
+
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	.button-primary,
+	.ninja-forms-field.btn,
+	.form-submit .submit {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.button-primary:hover,
+	.button-primary:focus,
+	.ninja-forms-field.btn:hover,
+	.ninja-forms-field.btn:focus,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus {
+		background: none;
+		color: $text-contrast-palette-primary_5;
+	}
+	.call-to-action .button-primary,
+	.background-secondary .button-primary {
+		background: $text-contrast-palette-primary_1;
+		color: $palette-primary_1;
+	}
+	.call-to-action .button-primary:hover,
+	.call-to-action .button-primary:focus,
+	.background-secondary .button-primary:hover,
+	.background-secondary .button-primary:focus {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+		color: $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.mod-beta {
+		background: $rgba_2;
+		color: $text-contrast-palette-primary_2;
+	}
+	.mod-beta p {
+		color: $text-contrast-palette-primary_2;
+	}
+	.mod-beta:after {
+    	border-top: 30px solid $rgba_2;
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	.background-secondary,
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a:focus {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.dropdown-menu > .active > a, 
+	.dropdown-menu > .active > a:hover, 
+	.dropdown-menu > .active > a:focus {
+    	background-color: $palette-primary_3;
+    	color: $text-contrast-palette-primary_3;
+	}
+
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	a,
+	a:hover,
+	a:focus,
+	.link-primary,
+	.link-primary:hover,
+	.link-primary:focus,
+	.link-secondary,
+	.link-secondary:hover,
+	.link-secondary:focus,
+	.mod-blockquote p,
+	.mod-gamma h2 {
+		color: $palette-primary_4;
+	}
+	hr {
+		background: $palette-primary_4;
+	}
+	.button-secondary {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus {
+		background: none;
+		color: $text-contrast-palette-primary_5;
+	}
+
+	/*-----------------------------------------------
+	## 5
+	-----------------------------------------------*/
+	.background-primary,
+	.background-accent,
+	.sliver-left,
+	.sliver-right,
+	.site-footer,
+	#boldgrid-sticky-filler {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	h2,
+	h3,
+	p,
+	li,
+	.widget-title,
+	.entry-title,
+	#reply-title,
+	.entry-meta,
+	.comments-area,
+	.mod-alpha,
+	.mod-beta-2,
+	.site-info a, 
+	.attribution a {
+		color: $text-contrast-palette-primary_5;
+	}
+	.mod-blockquote {
+		border-left: 2px solid $text-contrast-palette-primary_5;
+	}
+	.line-sm {
+		border-top: 2px solid $text-contrast-palette-primary_5;
+	}
+
+	/*-----------------------------------------------
+	## Light Text
+	-----------------------------------------------*/
+	.site-title a,
+	.site-title a:hover,
+	.site-title a:focus,
+	.site-description,
+	.slogan {
+		color: #fff;
+	}
+
+	/*-----------------------------------------------
+	## Dark Text
+	-----------------------------------------------*/
+	.comment-content p {
+		color: #121012;
+	}
+}
+
+/*------------------------------------------------------------------------
+# Tiny MCE
+------------------------------------------------------------------------*/
+.palette-primary.mce-content-body {
+	background: $palette-primary_5;
+	color: $text-contrast-palette-primary_5;
+}
