@@ -27,7 +27,7 @@
 			<?php do_action( 'boldgrid_header_top' ); ?>
 			<?php do_action('boldgrid_menu_secondary'); ?>
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-sm-6 col-md-8 col-lg-9">
 					<nav id="site-navigation" class="navbar navbar-default" role="navigation">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-navbar">
@@ -41,7 +41,7 @@
 				</nav><!-- #site-navigation -->
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
 					<div class="social-icons">
 						<?php do_action('boldgrid_menu_social') ?>
 					</div>
