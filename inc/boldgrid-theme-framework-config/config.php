@@ -1,32 +1,48 @@
 <?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
-	/**
-	 * General Configs
-	 */
+
 	// Text Domain.
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-resolve';
+
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+
 	// Enable typography controls.
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+
 	// Enable attribution links.
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
+
 	// Enable template wrapper.
 	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
+
 	// Specify the parent theme's name.
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
-	// Select the footer template to use.
-	$boldgrid_framework_configs['template']['footer'] = '1';
+
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = 'generic';
-	// Assign menus, widgets, and actions to locations in generic header template.
+
+	// Select the footer template to use.
+	$boldgrid_framework_configs['template']['footer'] = 'generic';
+
+	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
-		'6' => array( '[action]boldgrid_site_identity' ),
-		'7' => array( '[menu]tertiary' ),
-		'8' => array( '[widget]boldgrid-widget-1', '[menu]secondary', '[action]boldgrid_primary_navigation' ),
-		'9' => array( '[menu]social' ),
-		'10' => array( '[widget]boldgrid-widget-2' ),
+		'1' => array( '[menu]secondary' ),
+		'14' => array( '[action]boldgrid_primary_navigation' ),
+		'15' => array( '[menu]social' ),
+		'5' => array( '[widget]boldgrid-widget-2' ),
 	);
+
+	// Assign Locations for Generic Header.
+	$boldgrid_framework_configs['template']['locations']['footer'] = array(
+		'1' => array( '[menu]social' ),
+		'5' => array( '[menu]footer_center' ),
+		'8' => array( '[widget]boldgrid-widget-3' ),
+		'11' => array( '[action]boldgrid_display_attribution_links' ),
+	);
+
+	// Set the Call To Action Widget to be on Home Page Only.
+	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
 
 	/**
 	 * Customizer Configs
@@ -144,7 +160,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['menu']['locations']['social'] = "Social Media Menu";
 
 	// Icons
-	$boldgrid_framework_configs['social-icons']['size'] = 'large';
+	$boldgrid_framework_configs['social-icons']['size'] = 'normal';
 
 	// Background
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_attachment'] = 'parallax';
