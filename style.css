@@ -102,6 +102,14 @@ body {
 .site-title {
 	word-wrap: break-word;
 }
+.site-title a::before {
+	content: "";
+	width: 30%;
+	display: block;
+	margin-bottom: 13px;
+	padding-bottom: 6px;
+	position: relative;
+}
 .site-description {
 	margin-left: 5px;
 }
