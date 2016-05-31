@@ -52,9 +52,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 body,
 .custom-background {
 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .background-accent,
 .background-clear {
@@ -79,7 +79,7 @@ body,
 	padding-top: 25px;
 }
 .entry-content {
-    padding-bottom: 0px;
+	padding-bottom: 0px;
 }
 .page-template-home .entry-content {
 	padding-top: 5em;
@@ -122,7 +122,7 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Buttons */
@@ -181,7 +181,7 @@ blockquote p,
 	text-align: center;
 }
 #footer-widget-area {
-    text-align: left;
+	text-align: left;
 }
 .site-info a,
 .attribution a {
@@ -263,7 +263,7 @@ hr {
 .ninja-forms-field.btn {
 	margin-bottom: 15px;
 	margin-top: 15px;
-    padding: 8px 36px;
+	padding: 8px 36px;
 }
 .call-to-action .button-primary,
 .background-secondary .button-primary {
@@ -294,7 +294,7 @@ hr {
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin-top: 20px;
@@ -413,9 +413,9 @@ select,
 	background: none;
 	border: none;
 	/* Border Radius */
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-   	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -426,12 +426,12 @@ select,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	background: none;
+	background: none;
 }
 
 /* Links */
 .navbar-default .navbar-nav > li > a {
-    padding: 3px 15px;
+	padding: 3px 15px;
 }
 
 /* xs */
@@ -452,7 +452,7 @@ select,
 -----------------------------------------------*/
 #secondary-menu,
 #tertiary-menu {
-  	background: none;
+	background: none;
 }
 #secondary-menu a,
 #tertiary-menu a {
@@ -483,13 +483,13 @@ select,
 ## Social Menus
 -----------------------------------------------*/
 .menu-social li a {
-    padding: 0 5px;
+	padding: 0 5px;
 }
 
 @media (min-width: 992px) {
-    .attribution {
-        padding-bottom: 0;
-    }
+	.attribution {
+		padding-bottom: 0;
+	}
 }
 
 /*------------------------------------------------------------------------
@@ -606,9 +606,9 @@ select,
 .mod-beta::after {
 	border-right: 25px solid transparent;
 	content: "";
-    height: 0;
-    position: absolute;
-    width: 0;
+	height: 0;
+	position: absolute;
+	width: 0;
 }
 .mod-beta,
 .mod-beta-1 {
@@ -644,7 +644,7 @@ select,
 		bottom: inherit;
 		left: inherit;
 		right: -10px;
-    	top: 125px;
+		top: 125px;
 	}
 }
 
@@ -668,33 +668,33 @@ select,
 	padding-bottom: 25px;
 }
 .entry-meta {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 .post-title-hidden .line-sm,
 .home .entry-header .line-sm {
 	display: none;
 }
 .widget-area {
-    padding: 25px;
-    margin-bottom: 10px;
+	padding: 25px;
+	margin-bottom: 10px;
 	margin-top: 25px;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /* Widget Area (Header, Sidebar, Footer) */
 .boldgrid-widget.widget {
-    margin: 0 0 30px;
+	margin: 0 0 30px;
 }
 .site-info .boldgrid-widget.widget {
-    margin: 0;
+	margin: 0;
 }
 .footer-center-items {
-    padding: 0;
+	padding: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -708,7 +708,7 @@ select,
 	background: none;
 }
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 .woocommerce-product-rating {
 	padding-top: 15px;
@@ -734,7 +734,7 @@ html, body, .site, .site-content {
 	height: 100%;
 }
 #boldgrid-sticky-wrap {
-  	min-height: 100%;
-  	height: auto !important;
-  	height: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
