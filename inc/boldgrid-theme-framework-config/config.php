@@ -169,15 +169,16 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * Widgets
 	 */
 	$widget_markup['call-to-action'] = <<<HTML
-		<div class="row call-to-action-wrapper">
-			<div class="col-md-12">
-				<div class="call-to-action">
-					<h2 class="h4 slogan">INSIGHT. CULTURE. PASSION.</h2>
-					<a class="button-primary" href="about-us">OUR STORY</a>
+		<div class="container">
+			<div class="row call-to-action-wrapper">
+				<div class="col-md-12">
+					<div class="call-to-action">
+						<h2 class="h4 slogan">INSIGHT. CULTURE. PASSION.</h2>
+						<a class="button-primary" href="about-us">OUR STORY</a>
+					</div>
 				</div>
 			</div>
 		</div>
-
 HTML;
 
 	// Widget 1
