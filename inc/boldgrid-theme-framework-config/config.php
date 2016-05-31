@@ -36,10 +36,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['footer'] = array(
-		'1' => array( '[menu]social' ),
+		'1' => array( '[widget]boldgrid-widget-3' ),
 		'5' => array( '[menu]footer_center' ),
-		'8' => array( '[widget]boldgrid-widget-3' ),
-		'11' => array( '[action]boldgrid_display_attribution_links' ),
+		'8' => array( '[action]boldgrid_display_attribution_links' ),
 	);
 
 	// Set the Call To Action Widget to be on Home Page Only.
