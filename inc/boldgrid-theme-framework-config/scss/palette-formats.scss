@@ -54,14 +54,14 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	## 3
 	-----------------------------------------------*/
 	.background-secondary,
-	.navbar-default .navbar-nav > .open > a, 
-	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
-	.dropdown-menu > .active > a, 
-	.dropdown-menu > .active > a:hover, 
+	.dropdown-menu > .active > a,
+	.dropdown-menu > .active > a:hover,
 	.dropdown-menu > .active > a:focus {
     	background-color: $palette-primary_3;
     	color: $text-contrast-palette-primary_3;
@@ -127,7 +127,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.comments-area,
 	.mod-alpha,
 	.mod-beta-2,
-	.site-info a, 
+	.site-info a,
 	.attribution a,
 	.content-area .fa:hover,
 	.content-area .fa:focus, {
@@ -143,11 +143,17 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	/*-----------------------------------------------
 	## Light Text
 	-----------------------------------------------*/
+	.line-lg {
+		border-top: 5px solid #fff;
+	}
+	.site-title a::before {
+		background-color: #fff;
+	}
 	.site-title a,
 	.site-title a:hover,
 	.site-title a:focus,
 	.site-header .fa:hover,
-	.site-header .fa:focus, 
+	.site-header .fa:focus,
 	.site-description,
 	.slogan,
 	#secondary-menu,
@@ -165,22 +171,19 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.woocommerce table.shop_table,
 	.shop_table td,
 	.shop_table thead tr th,
-	.shop_table tbody th, 
-	.shop_table tfoot td, 
+	.shop_table tbody th,
+	.shop_table tfoot td,
 	.shop_table tfoot th  {
 		border: 1px solid #fff;
-	}
-	.line-lg {
-		border-top: 5px solid #fff;
 	}
 
 	/*-----------------------------------------------
 	## Dark Text
 	-----------------------------------------------*/
 	.comment-content p,
-	.search-field, 
-	input, 
-	select, 
+	.search-field,
+	input,
+	select,
 	textarea {
 		color: #121012;
 	}
@@ -214,7 +217,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	#footer-widget-area .widget-title,
 	#footer-widget-area ul li,
 	#header-widget-area ul li {
-		color: #333;	
+		color: #333;
 	}
 
 	/* #ccc */
@@ -233,9 +236,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	}
 
 	/* WooCommerce */
-	.woocommerce #respond input#submit, 
+	.woocommerce #respond input#submit,
 	.woocommerce a.button,
-	.woocommerce button.button, 
+	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
 	    background-color: #a46497;
