@@ -66,7 +66,7 @@ body,
 }
 .background-clear {
 	background: none;
-	width: 58.33333333%; 
+	width: 58.33333333%;
 }
 .background-secondary {
 	padding-bottom: 30px;
@@ -224,7 +224,7 @@ blockquote p,
 	display: none;
 }
 .hentry {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 /*-----------------------------------------------
@@ -383,10 +383,10 @@ select,
 }
 
 /* Social Media */
-.social-icons {
-	margin-top: 25px;
+#menu-social {
+	margin-top: 1.8em;
 }
-.social-icons i {
+#menu-social i {
 	padding: 0 3px;
 }
 
@@ -443,7 +443,7 @@ select,
 @media (min-width: 992px) {
 	.navbar-default .navbar-nav {
 		margin-left: -15px;
-		float: right;	
+		float: right;
 	}
 }
 
@@ -495,11 +495,11 @@ select,
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
 .gridblock p {
 	margin: 10px 0;
@@ -548,7 +548,7 @@ select,
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -628,13 +628,13 @@ select,
 
 /* xs */
 .mod-beta:after {
-	bottom: -30px;  
+	bottom: -30px;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	.mod-beta {
-		border: none;	
+		border: none;
 	}
 }
 
@@ -705,7 +705,7 @@ select,
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce div.product .woocommerce-tabs .panel {
-	background: none;	
+	background: none;
 }
 .woocommerce p.buttons a.button:hover {
     background-image: none;
@@ -716,7 +716,7 @@ select,
 
 /* Search Form */
 .form-control {
-	display: inline-block;	
+	display: inline-block;
 }
 
 /*------------------------------------------------------------------------
