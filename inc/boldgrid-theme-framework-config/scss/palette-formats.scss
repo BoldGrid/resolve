@@ -79,6 +79,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.link-secondary,
 	.link-secondary:hover,
 	.link-secondary:focus,
+	blockquote p,
 	.mod-blockquote p,
 	.mod-gamma h2 {
 		color: $palette-primary_4;
@@ -133,6 +134,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.content-area .fa:focus, {
 		color: $text-contrast-palette-primary_5;
 	}
+	blockquote,
 	.mod-blockquote {
 		border-left: 2px solid $text-contrast-palette-primary_5;
 	}
@@ -227,7 +229,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	}
 
 	/* #595053 */
-	.mod-blockquote p,
 	.mod-gamma h2 {
 		color: #595053;
 	}
