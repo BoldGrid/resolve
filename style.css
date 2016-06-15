@@ -199,7 +199,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 
 /* Positioning */
-.p-button-primary {
+.p-button-primary,
+.gridblock .p-button-primary {
 	margin-bottom: 5em;
 	margin-top: 2.5em;
 }
