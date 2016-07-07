@@ -146,6 +146,21 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 175;
 
+	// Typography Tagline Classes.
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
+
+	// Typography Relationships.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.entry-header h1'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 2.4,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.p-button-primary a, .p-button-secondary a, .call-to-action a.button-primary, .form-submit a, .ninja-forms-all-fields-wrap input.btn'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 0.85,
+	);
+
 	// Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'normal';
 
