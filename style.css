@@ -81,10 +81,10 @@ body,
 .entry-content {
 	padding-bottom: 0px;
 }
-.page-template-home .entry-content {
+.page-template-page_home .entry-content {
 	padding-top: 5em;
 }
-.page-template-home {
+.page-template-page_home {
 	overflow-x: hidden;
 }
 
@@ -227,8 +227,8 @@ blockquote p,
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-home .entry-title,
-.page-template-home .row-line {
+.page-template-page_home .entry-title,
+.page-template-page_home .row-line {
 	display: none;
 }
 .hentry {
