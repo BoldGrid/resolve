@@ -4,11 +4,10 @@ Author: the BoldGrid team
 Theme URI: https://www.boldgrid.com/resolve
 Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.13
+Version: 1.14
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-resolve
-Template: prime
 Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-36
 */
 
@@ -28,7 +27,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Menu Locations
 	## Social Menus
-# GridBLocks
+# GridBlocks
+	## Positioning
 # Modules
 	## Universal
 	## Global
@@ -49,13 +49,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Background
 -----------------------------------------------*/
-body,
-.custom-background {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 .background-accent,
 .background-clear {
 	float: left;
@@ -91,56 +84,24 @@ body,
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-body {
-	font-weight: 400;
-}
-.site-title,
-.entry-title,
-.slogan {
-	font-weight: 300;
-}
 .site-title {
 	word-wrap: break-word;
 }
-.site-title a::before {
-	content: "";
-	width: 30%;
-	display: block;
-	margin-bottom: 13px;
-	padding-bottom: 6px;
-	position: relative;
-}
 .site-description {
 	margin-left: 5px;
-}
-
-/* Navigation */
-#secondary-menu {
-	text-align: center;
-}
-.menu-social li a {
-	text-align: right;
-}
-.menu-social li a:hover,
-.menu-social li a:focus {
-	text-decoration: none;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:focus,
+.payment_method_paypal label a,
+.woocommerce-message a,
+.showcoupon,
+#today a,
+.site-info a,
+.attribution a {
 	text-decoration: underline;
-}
-
-/* Buttons */
-.button-primary,
-.button-secondary,
-.form-submit .submit
-.ninja-forms-field.btn {
-	font-family: 'Yanone Kaffeesatz';
-	font-size: 17px;
-	font-weight: 400;
 }
 .button-primary:hover,
 .button-primary:focus,
@@ -149,30 +110,13 @@ body {
 .form-submit .submit:hover,
 .form-submit .submit:focus,
 .ninja-forms-field.btn:hover,
-.ninja-forms-field.btn:focus {
-	text-decoration: none;
-}
-
-/* Modules */
-blockquote p,
-.mod-blockquote p,
-.mod-alpha h2,
-.mod-gamma h2 {
-	font-weight: 300;
-}
-.mod-beta,
-.mod-beta-1,
-.mod-beta-2 {
-	text-align: center;
-}
-
-/* Et Cetera */
-.payment_method_paypal label a,
-.woocommerce-message a,
-.showcoupon,
-#today a {
-	text-decoration: underline;
-}
+.ninja-forms-field.btn:focus,
+.menu-social li a:hover,
+.menu-social li a:focus,
+.site-info a:hover,
+.site-info a:focus,
+.attribution a:hover,
+.attribution a:focus,
 .showcoupon:hover,
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
@@ -183,23 +127,18 @@ blockquote p,
 .woocommerce p.buttons a.button:focus {
 	text-decoration: none;
 }
-
-/* Footer */
+#secondary-menu,
+.mod-beta,
+.mod-beta-1,
+.mod-beta-2,
 .site-footer {
 	text-align: center;
 }
 #footer-widget-area {
 	text-align: left;
 }
-.site-info a,
-.attribution a {
-	text-decoration: underline;
-}
-.site-info a:hover,
-.site-info a:focus,
-.attribution a:hover,
-.attribution a:focus {
-	text-decoration: none;
+.menu-social li a {
+	text-align: right;
 }
 
 /* xs */
@@ -236,31 +175,12 @@ blockquote p,
 }
 
 /*-----------------------------------------------
-## Lists
------------------------------------------------*/
-ul,
-ol {
-	padding-left: 0;
-}
-ul {
-	list-style-type: square;
-	margin-left: 15px;
-}
-ol {
-	margin-left: 25px;
-}
-
-/*-----------------------------------------------
-## Dividers
------------------------------------------------*/
-hr {
-	border: 0;
-	height: 2px;
-}
-
-/*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -311,8 +231,27 @@ hr {
 }
 
 /*-----------------------------------------------
-## Forms
+## Et Cetera
 -----------------------------------------------*/
+hr {
+	border: 0;
+	height: 2px;
+}
+
+/* Lists */
+ul,
+ol {
+	padding-left: 0;
+}
+ul {
+	list-style-type: square;
+	margin-left: 15px;
+}
+ol {
+	margin-left: 25px;
+}
+
+/* Forms */
 select,
 .state,
 .country {
@@ -392,10 +331,10 @@ select,
 }
 
 /* Social Media */
-#menu-social {
-	margin-top: 1.8em;
+.social-icons {
+	margin-top: 25px;
 }
-#menu-social i {
+.social-icons i {
 	padding: 0 3px;
 }
 
@@ -504,6 +443,10 @@ select,
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
 .gridblock h1,
 .gridblock h2,
 .gridblock h3,
@@ -578,12 +521,12 @@ select,
 .mod-space-2 {
 	margin-top: 50px;
 }
-
-/* Blockquotes */
+blockquote,
 .mod-blockquote {
 	padding-bottom: 0;
 	padding-top: 0;
 }
+blockquote p,
 .mod-blockquote p {
 	padding-left: 15px;
 }
