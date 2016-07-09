@@ -27,8 +27,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Menu Locations
 	## Social Menus
-# GridBlocks
-	## Positioning
 # Modules
 	## Global
 	## Alpha
@@ -126,13 +124,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .woocommerce p.buttons a.button:focus {
 	text-decoration: none;
 }
-#secondary-menu,
-.mod-beta,
-.mod-beta-1,
-.mod-beta-2,
-.site-footer {
-	text-align: center;
-}
 #footer-widget-area {
 	text-align: left;
 }
@@ -141,6 +132,11 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 
 /* xs */
+#secondary-menu,
+.mod-beta,
+.mod-beta-1,
+.mod-beta-2,
+.site-footer,
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -258,11 +254,9 @@ select,
 	border: none;
 	height: 35px;
 	padding: 0.313em;
-	/* Appearance */
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	/* Border-Radius */
 	-webkit-border-radius: 1px;
 	-moz-border-radius: 1px;
 	border-radius: 1px;
@@ -359,7 +353,6 @@ select,
 .navbar {
 	background: none;
 	border: none;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -412,15 +405,13 @@ select,
 	padding-right: 0;
 }
 #secondary-menu .menu-social:after,
-#tertiary-menu .menu-social:after {
+#tertiary-menu .menu-social:after,
+#footer-center-menu .menu-social:after {
 	content: "";
 }
 #secondary-menu .menu-social a,
 #tertiary-menu .menu-social a {
 	padding: 10px;
-}
-#footer-center-menu .menu-social:after {
-	content: "";
 }
 #footer-center-menu a {
 	padding: 0 8px;
@@ -437,23 +428,6 @@ select,
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/*------------------------------------------------------------------------
-# GridBlocks
-------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock p {
-	margin: 10px 0;
 }
 
 /*------------------------------------------------------------------------
