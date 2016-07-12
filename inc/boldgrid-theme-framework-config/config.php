@@ -196,6 +196,11 @@ HTML;
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Below Site Title';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Site Title';
 
+	// Menu Locations.
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Below Header';
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Social Media Menu';
+
 	return $boldgrid_framework_configs;
 }
 
