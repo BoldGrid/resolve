@@ -99,7 +99,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.sliver-left,
 	.sliver-right,
 	.site-footer,
-	.hentry,
+	&.page-template-page_home .hentry,
+	&.page-template-default .site-content,
 	.disabled-footer .site-footer,
 	#boldgrid-sticky-filler {
 		background: $palette-primary_5;
