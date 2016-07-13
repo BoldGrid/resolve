@@ -26,7 +26,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['footer'] = 'generic';
 
 	// Give page_home.php a fluid container.
-	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'fluid';
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'container-fluid';
 
 	// Give the default page template a container.
 	$boldgrid_framework_configs['template']['pages']['default']['container_class'] = 'container';
@@ -36,7 +36,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'1' => array( '[menu]secondary' ),
 		'14' => array( '[action]boldgrid_primary_navigation' ),
 		'15' => array( '[menu]social' ),
-		'5' => array( '[action]boldgrid_line_bg', '[widget]boldgrid-widget-2' ),
+		'5' => array( '[widget]boldgrid-widget-2' ),
 		'8' => array( '[action]boldgrid_site_title_line', '[action]boldgrid_site_identity' ),
 		'11' => array( '[widget]boldgrid-widget-1' ),
 		'13' => array( '[action]home_spacer' ),
