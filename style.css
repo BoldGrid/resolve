@@ -77,6 +77,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .page-template-page_home {
 	overflow-x: hidden;
 }
+.page-template-default .call-to-action {
+	display: none;
+}
 
 /*-----------------------------------------------
 ## Typography

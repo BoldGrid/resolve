@@ -35,6 +35,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'15' => array( '[menu]social' ),
 		'5' => array( '[action]boldgrid_line_bg', '[widget]boldgrid-widget-2' ),
 		'8' => array( '[action]boldgrid_site_identity' ),
+		'11' => array( '[widget]boldgrid-widget-1' ),
+		'13' => array( '[action]home_spacer' ),
 	);
 
 	// Assign Locations for Generic Header.
@@ -43,9 +45,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'5' => array( '[menu]footer_center' ),
 		'8' => array( '[action]boldgrid_display_attribution_links' ),
 	);
-
-	// Set the Call To Action Widget to be on Home Page Only.
-	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
 
 	/**
 	 * Customizer Configs
@@ -224,3 +223,18 @@ function boldgrid_filter_logo_controls( $controls ) {
 	return $controls;
 }
 add_filter( 'kirki/fields', 'boldgrid_filter_logo_controls' );
+
+/**
+ * Adds spacer markup to the home page.
+ */
+function boldgrid_home_spacer() {
+	if ( is_page_template( 'page_home.php' ) ) : ?>
+		<div class="row mod-space-home">
+	<?php endif; ?>
+			<div class="background-clear"></div>
+			<div class="background-accent"></div>
+	<?php if ( is_page_template( 'page_home.php' ) ) : ?>
+		</div>
+	<?php endif; ?>
+<?php }
+add_action( 'home_spacer', 'boldgrid_home_spacer' );
