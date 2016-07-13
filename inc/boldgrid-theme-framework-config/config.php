@@ -210,7 +210,7 @@ add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config'
 /**
  * Site Title & Logo Controls
  */
-function filter_logo_controls( $controls ) {
+function boldgrid_filter_logo_controls( $controls ) {
 	$controls['logo_font_family']['default'] = 'Yanone Kaffeesatz';
 	$controls['logo_font_size']['default'] = 100;
 	$controls['logo_margin_top']['default'] = 15;
@@ -220,4 +220,4 @@ function filter_logo_controls( $controls ) {
 
 	return $controls;
 }
-add_filter( 'kirki/fields', 'filter_logo_controls' );
+add_filter( 'kirki/fields', 'boldgrid_filter_logo_controls' );
