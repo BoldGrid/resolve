@@ -319,11 +319,8 @@ select,
 }
 
 /* Social Media */
-.social-icons {
-	margin-top: 25px;
-}
-.social-icons i {
-	padding: 0 3px;
+.social-menu {
+	margin-top: 1.8em;
 }
 
 /* sm */
@@ -331,7 +328,7 @@ select,
 	.site-branding {
 		margin-top: 150px;
 	}
-	.social-icons {
+	.social-menu {
 		float: right;
 		margin-right: -15px;
 	}
@@ -354,7 +351,7 @@ select,
 }
 .navbar-default {
 	margin-bottom: 0;
-	margin-top: 25px;
+	margin-top: 1.8em;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,

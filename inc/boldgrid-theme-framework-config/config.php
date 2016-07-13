@@ -37,7 +37,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'14' => array( '[action]boldgrid_primary_navigation' ),
 		'15' => array( '[menu]social' ),
 		'5' => array( '[action]boldgrid_line_bg', '[widget]boldgrid-widget-2' ),
-		'8' => array( '[action]boldgrid_site_identity' ),
+		'8' => array( '[action]boldgrid_site_title_line', '[action]boldgrid_site_identity' ),
 		'11' => array( '[widget]boldgrid-widget-1' ),
 		'13' => array( '[action]home_spacer' ),
 	);
@@ -241,3 +241,15 @@ function boldgrid_home_spacer() {
 	<?php endif; ?>
 <?php }
 add_action( 'home_spacer', 'boldgrid_home_spacer' );
+
+/**
+ * Adds line above site title.
+ */
+function boldgrid_site_title_line() { ?>
+	<div class="row">
+		<div class="col-xs-5 col-md-3">
+			<div class="line-lg"></div>
+		</div>
+	</div>
+<?php }
+add_action( 'boldgrid_site_title_line', 'boldgrid_site_title_line' );
