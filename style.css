@@ -325,8 +325,8 @@ select,
 
 /* sm */
 @media (min-width: 768px) {
-	.site-branding {
-		margin-top: 150px;
+	.line-lg {
+		margin-top: 120px;
 	}
 	.social-menu {
 		float: right;
@@ -557,14 +557,6 @@ blockquote p,
 	float: left;
 	padding-right: 15px;
 }
-
-/* Widget Area (Header, Sidebar, Footer) */
-.boldgrid-widget.widget {
-	margin: 0 0 30px;
-}
-.site-info .boldgrid-widget.widget {
-	margin: 0;
-}
 .footer-center-items {
 	padding: 0;
 }
@@ -595,7 +587,7 @@ blockquote p,
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	padding-bottom: 30px;
+	padding-bottom: 2em;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
