@@ -537,9 +537,7 @@ blockquote p,
 # Posts
 ------------------------------------------------------------------------*/
 .entry-title {
-	margin-bottom: 20px;
-	margin-top: 0;
-	padding-bottom: 25px;
+	padding: 1em 0;
 }
 .entry-meta {
 	padding-top: 15px;
