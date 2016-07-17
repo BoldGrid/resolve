@@ -388,6 +388,9 @@ select,
 #tertiary-menu {
 	background: none;
 }
+.boldgrid-framework-menu li{
+	display: inline-block;
+}
 #secondary-menu a,
 #tertiary-menu a {
 	padding: 0 8px;
