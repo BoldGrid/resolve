@@ -90,6 +90,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .site-description {
 	margin-left: 5px;
 }
+.secondary-menu .current-menu-item a,
+.tertiary-menu .current-menu-item a,
+.footer-center-menu .current-menu-item a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
