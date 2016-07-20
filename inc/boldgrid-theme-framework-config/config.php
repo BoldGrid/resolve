@@ -250,3 +250,16 @@ function boldgrid_site_title_line() { ?>
 	</div>
 <?php }
 add_action( 'boldgrid_site_title_line', 'boldgrid_site_title_line' );
+/**
+ * Adds line above page titles.
+ */
+function boldgrid_page_title_line() { ?>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-sm-3 col-xs-3">
+				<div class="line-sm"></div>
+			</div>
+		</div>
+	</div>
+<?php }
+add_action( 'before_entry_title', 'boldgrid_page_title_line' );
