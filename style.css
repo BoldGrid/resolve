@@ -590,7 +590,7 @@ blockquote p,
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	padding-bottom: 2em;
+	padding: 2em 0;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
