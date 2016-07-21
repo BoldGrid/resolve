@@ -252,6 +252,15 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background-color: #dad8da;
 	    color: #515151;
 	}
+	&.error404 {
+		.list-group-item {
+			background: $palette-primary_4;
+			border: 1px $text-contrast-palette-primary_4 solid;
+			a {
+				color: $text-contrast-palette-primary_4;
+			}
+		}
+	}
 }
 
 /*------------------------------------------------------------------------
