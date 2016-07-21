@@ -33,9 +33,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'1' => array( '[menu]secondary' ),
 		'14' => array( '[action]boldgrid_primary_navigation' ),
 		'15' => array( '[menu]social' ),
-		'5' => array( '[menu]tertiary', '[widget]boldgrid-widget-2' ),
+		'5' => array( '[widget]boldgrid-widget-2' ),
 		'8' => array( '[action]boldgrid_site_title_line', '[action]boldgrid_site_identity' ),
-		'11' => array( '[widget]boldgrid-widget-1' ),
+		'11' => array( '[widget]boldgrid-widget-1', '[menu]tertiary' ),
 		'13' => array( '[action]home_spacer' ),
 	);
 
