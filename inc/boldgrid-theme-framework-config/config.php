@@ -254,7 +254,7 @@ add_action( 'boldgrid_site_title_line', 'boldgrid_site_title_line' );
  * Adds line above page titles.
  */
 function boldgrid_page_title_line() {
-	if ( ! is_page_template( 'page_home' ) ) { ?>
+	if ( ! is_page_template( 'page_home.php' ) ) { ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-sm-3 col-xs-3">
