@@ -18,7 +18,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.call-to-action .button-primary:hover,
 	.call-to-action .button-primary:focus,
 	.background-secondary .button-primary:hover,
-	.background-secondary .button-primary:focus {
+	.background-secondary .button-primary:focus,
+	.nav > li > a:focus,
+	.nav > li > a:hover {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
