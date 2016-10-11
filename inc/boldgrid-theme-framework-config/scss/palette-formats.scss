@@ -35,6 +35,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus {
+		background: transparent;
 		color: $palette-primary_1;
 	}
 
