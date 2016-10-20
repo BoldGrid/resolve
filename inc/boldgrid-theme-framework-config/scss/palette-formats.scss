@@ -50,7 +50,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		color: $text-contrast-palette-primary_2;
 	}
 	.mod-beta::after {
-    	border-top: 30px solid $rgba_2;
+		border-top: 30px solid $rgba_2;
 	}
 
 	/*-----------------------------------------------
@@ -59,10 +59,10 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.background-secondary {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
-	}	
+	}
 	.dropdown-menu {
 		background: transparent;
-	}	
+	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		background: transparent;
 		color: $palette-primary_1;
@@ -72,8 +72,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    	background-color: $palette-primary_3;
-    	color: $text-contrast-palette-primary_3;
+		background-color: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
 	}
 
 	/*-----------------------------------------------
@@ -240,7 +240,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		color: #ccc;
 	}
 	.widget-area {
-	    border: 1px solid #ccc;
+		border: 1px solid #ccc;
 	}
 
 	/* #595053 */
@@ -255,12 +255,12 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
+		background-color: #a46497;
+		color: #fff;
 	}
 	.woocommerce p.buttons a.button:hover {
 		background-color: #dad8da;
-	    color: #515151;
+		color: #515151;
 	}
 	&.error404 {
 		.list-group-item {
@@ -271,12 +271,11 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 			}
 		}
 	}
-}
-
-/*------------------------------------------------------------------------
-# Tiny MCE
-------------------------------------------------------------------------*/
-.palette-primary.mce-content-body {
-	background: $palette-primary_5;
-	color: $text-contrast-palette-primary_5;
+	/*------------------------------------------------------------------------
+	# Tiny MCE
+	------------------------------------------------------------------------*/
+	&.mce-content-body {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
 }
