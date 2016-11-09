@@ -38,6 +38,13 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background: transparent;
 		color: $palette-primary_1;
 	}
+	.site-header .widget.well .table a,
+	.site-header .widget.well .table a:hover {
+		color: $palette-primary_1;
+	}
+	.site-header .widget.well li > a:hover {
+		color: $text-contrast-palette-primary_1;
+	}
 
 	/*-----------------------------------------------
 	## 2
@@ -75,6 +82,16 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background-color: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
+	.site-header .well,
+	.site-header .widget.well.widget_search .button-primary:hover {
+		background: $palette-primary_3;
+	}
+	.site-header .well caption,
+	.site-header .well,
+	.site-header .table > tbody > tr td,
+	.site-header .widget.well a {
+		color: $text-contrast-palette-primary_3;
+	}	
 
 	/*-----------------------------------------------
 	## 4
@@ -144,7 +161,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-info a,
 	.attribution a,
 	.content-area .fa:hover,
-	.content-area .fa:focus, {
+	.content-area .fa:focus {
 		color: $text-contrast-palette-primary_5;
 	}
 	.mod-blockquote {
@@ -227,7 +244,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.table > tbody > tr td,
 	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
 	#secondary .table-striped > tbody > tr #today a,
-	.well .widget-title,
 	#footer-widget-area .widget-title,
 	#footer-widget-area ul li,
 	#header-widget-area ul li {
