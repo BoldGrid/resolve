@@ -42,7 +42,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-header .widget.well .table a:hover {
 		color: $palette-primary_1;
 	}
-	.site-header .widget.well li > a:hover {
+	.site-header .widget.well li > a:hover,
+	.site-footer .widget.well li > a:hover {
 		color: $text-contrast-palette-primary_1;
 	}
 
@@ -161,7 +162,11 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-info a,
 	.attribution a,
 	.content-area .fa:hover,
-	.content-area .fa:focus {
+	.content-area .fa:focus,
+	.site-footer .well,
+	.site-footer .well caption,
+	.site-footer .well .table td,
+	.site-footer a {
 		color: $text-contrast-palette-primary_5;
 	}
 	.mod-blockquote {
@@ -244,7 +249,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.table > tbody > tr td,
 	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
 	#secondary .table-striped > tbody > tr #today a,
-	#footer-widget-area .widget-title,
 	#footer-widget-area ul li,
 	#header-widget-area ul li {
 		color: #333;

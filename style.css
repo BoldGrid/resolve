@@ -103,7 +103,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .showcoupon,
 #today a,
 .site-info a,
-.attribution a {
+.attribution a,
+.site-header .widget.well .table a,
+.site-footer .widget a {
 	text-decoration: underline;
 }
 .entry-title a:hover,
@@ -232,16 +234,14 @@ hr {
 	border: 0;
 	height: 2px;
 }
-.site-header .widget.well.widget_search {
+.site-header .widget.well.widget_search,
+.site-footer .well {
 	background: transparent;
 	border: none;
 	box-shadow: none;
 }
-.site-header .table-striped > tbody > tr:nth-of-type(2n+1) {
+.table-striped > tbody > tr:nth-of-type(2n+1) {
 	background: transparent;
-}
-.site-header .widget.well .table a {
-	text-decoration: underline;
 }
 
 /* Lists */
