@@ -20,7 +20,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.background-secondary .button-primary:hover,
 	.background-secondary .button-primary:focus,
 	.nav > li > a:focus,
-	.nav > li > a:hover {
+	.nav > li > a:hover,
+	.pager li > a {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -145,7 +146,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.form-submit .submit:hover,
 	.form-submit .submit:focus,
 	.ninja-forms-field.btn:hover,
-	.ninja-forms-field.btn:focus {
+	.ninja-forms-field.btn:focus,
+	.pager li > a:hover,
+	.pager li > a:focus {
 		background: none;
 		color: $text-contrast-palette-primary_5;
 	}
@@ -169,7 +172,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-footer a {
 		color: $text-contrast-palette-primary_5;
 	}
-	.mod-blockquote {
+	.mod-blockquote,
+	blockquote {
 		border-left: 2px solid $text-contrast-palette-primary_5;
 	}
 	.line-sm {
@@ -231,7 +235,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.button-primary,
 	.button-secondary,
 	.form-submit .submit,
-	.ninja-forms-field.btn {
+	.ninja-forms-field.btn,
+	.pager li > a {
 		border: 1px solid #333;
 	}
 	.showcoupon,
