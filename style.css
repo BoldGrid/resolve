@@ -178,6 +178,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .hentry {
 	margin: 0 auto;
 }
+.hentry:first-child ~ .hentry {
+	margin-top: 50px;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -565,10 +568,13 @@ blockquote p,
 .search .button-primary {
 	margin: 0;
 }
+
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-
+.nav-links {
+	margin: 25px 0;
+}
 .entry-meta {
 	padding-top: 15px;
 }
