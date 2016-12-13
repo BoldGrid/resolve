@@ -596,6 +596,15 @@ blockquote p,
 .footer-center-items {
 	padding: 0;
 }
+.panel-default > .panel-heading {
+	border: none;
+}
+.panel-footer {
+	border-top: 1px solid transparent;
+}
+.panel {
+	box-shadow: none;
+}
 
 /*------------------------------------------------------------------------
 # Plugins
