@@ -55,8 +55,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	width: 41.66666667%;
 }
 .background-clear {
-	background: none;
 	width: 58.33333333%;
+	background: none;
 }
 .background-secondary {
 	padding-bottom: 30px;
@@ -69,7 +69,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 25px;
 }
 .entry-content {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 .page-template-page_home .entry-content {
 	padding-top: 5em;
@@ -189,8 +189,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .button-secondary,
 .form-submit .submit
 .ninja-forms-field.btn {
-	margin-bottom: 15px;
 	margin-top: 15px;
+	margin-bottom: 15px;
 	padding: 8px 36px;
 }
 .call-to-action .button-primary,
@@ -201,8 +201,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /* Positioning */
 .p-button-primary,
 .gridblock .p-button-primary {
-	margin-bottom: 5em;
 	margin-top: 2.5em;
+	margin-bottom: 5em;
 }
 .call-to-action .p-button-primary {
 	margin-bottom: 0;
@@ -234,13 +234,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;
 	height: 2px;
+	border: 0;
 }
 .site-header .widget.well.widget_search,
 .site-footer .well {
-	background: transparent;
 	border: none;
+	background: transparent;
 	box-shadow: none;
 }
 .table-striped > tbody > tr:nth-of-type(2n+1) {
@@ -253,8 +253,8 @@ ol {
 	padding-left: 0;
 }
 ul {
-	list-style-type: square;
 	margin-left: 15px;
+	list-style-type: square;
 }
 ol {
 	margin-left: 25px;
@@ -264,26 +264,27 @@ ol {
 select,
 .state,
 .country {
-	background: url('images/form-arrow-down.png') 100% / 6% no-repeat #fff;
-	border: none;
+	padding: .313em;
 	height: 35px;
-	padding: 0.313em;
+	border: none;
+	border-radius: 1px;
+	background: url("images/form-arrow-down.png") 100% / 6% no-repeat #fff;
+
 	-webkit-appearance: none;
 	appearance: none;
-	border-radius: 1px;
 }
 .address_city {
 	width: 100% !important;
 }
 .address_state {
-	margin-left: 0% !important;
+	margin-left: 0 !important;
 	width: 100% !important;
 }
 .address_zip {
 	width: 100% !important;
 }
 .address_country {
-	margin-left: 0% !important;
+	margin-left: 0 !important;
 	width: 100% !important;
 }
 
@@ -292,7 +293,7 @@ select,
 	select,
 	.state,
 	.country {
-		background: url('images/form-arrow-down.png') 100% / 7% no-repeat #fff;
+		background: url("images/form-arrow-down.png") 100% / 7% no-repeat #fff;
 	}
 	.address_city {
 		margin-right: 1.3% !important;
@@ -317,7 +318,7 @@ select,
 	select,
 	.state,
 	.country {
-		background: url('images/form-arrow-down.png') 100% / 10% no-repeat #fff;
+		background: url("images/form-arrow-down.png") 100% / 10% no-repeat #fff;
 	}
 }
 
@@ -326,8 +327,8 @@ select,
 ------------------------------------------------------------------------*/
 /* Call To Action */
 .call-to-action {
-	margin-left: 5px;
 	margin-top: 0;
+	margin-left: 5px;
 }
 .slogan {
 	margin-top: 0;
@@ -359,13 +360,13 @@ select,
 -----------------------------------------------*/
 /* Nav Reset */
 .navbar {
-	background: none;
 	border: none;
 	border-radius: 0;
+	background: none;
 }
 .navbar-default {
-	margin-bottom: 0;
 	margin-top: 1.8em;
+	margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -388,8 +389,8 @@ select,
 /* md */
 @media (min-width: 992px) {
 	.navbar-default .navbar-nav {
-		margin-left: -15px;
 		float: right;
+		margin-left: -15px;
 	}
 }
 
@@ -400,7 +401,7 @@ select,
 #tertiary-menu {
 	background: none;
 }
-.boldgrid-framework-menu li{
+.boldgrid-framework-menu li {
 	display: inline-block;
 }
 #secondary-menu a,
@@ -460,8 +461,8 @@ select,
 }
 blockquote,
 .mod-blockquote {
-	padding-bottom: 0;
 	padding-top: 0;
+	padding-bottom: 0;
 }
 blockquote p,
 .mod-blockquote p {
@@ -492,11 +493,11 @@ blockquote p,
 	padding: 2em;
 }
 .mod-beta::after {
-	border-right: 25px solid transparent;
-	content: "";
-	height: 0;
 	position: absolute;
 	width: 0;
+	height: 0;
+	border-right: 25px solid transparent;
+	content: "";
 }
 .mod-beta,
 .mod-beta-1 {
@@ -506,9 +507,9 @@ blockquote p,
 	border-radius: 50%;
 }
 .mod-beta-2 {
-	list-style: none;
-	margin-left: -30px;
 	margin-top: 1.5em;
+	margin-left: -30px;
+	list-style: none;
 }
 .mod-beta-2 li {
 	margin-bottom: 10px;
@@ -529,10 +530,10 @@ blockquote p,
 /* md */
 @media (min-width: 992px) {
 	.mod-beta:after {
+		top: 125px;
+		right: -10px;
 		bottom: inherit;
 		left: inherit;
-		right: -10px;
-		top: 125px;
 	}
 }
 
@@ -557,8 +558,8 @@ blockquote p,
 }
 /* Search Page */
 .search .jumbotron {
-	text-align: center;
 	background: none;
+	text-align: center;
 }
 .search .button-primary {
 	margin: 0;
@@ -578,9 +579,9 @@ blockquote p,
 	display: none;
 }
 .widget-area {
-	padding: 25px;
-	margin-bottom: 10px;
 	margin-top: 25px;
+	margin-bottom: 10px;
+	padding: 25px;
 }
 
 /* Comments */
