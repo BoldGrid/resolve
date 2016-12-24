@@ -269,10 +269,7 @@ select,
 	height: 35px;
 	padding: 0.313em;
 	-webkit-appearance: none;
-	-moz-appearance: none;
 	appearance: none;
-	-webkit-border-radius: 1px;
-	-moz-border-radius: 1px;
 	border-radius: 1px;
 }
 .address_city {
@@ -364,8 +361,6 @@ select,
 .navbar {
 	background: none;
 	border: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 }
 .navbar-default {
