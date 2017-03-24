@@ -218,8 +218,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	display: inline;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Extra Small Devices, Phones (xs) */
+@media only screen and ( min-width : 480px ) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
