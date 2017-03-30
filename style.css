@@ -188,11 +188,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .button-primary,
 .button-secondary,
 .form-submit .submit
-.ninja-forms-field.btn {
+.ninja-forms-field.btn,
+.woocommerce .call-to-action .button-primary {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding: 8px 36px;
 }
+.woocommerce .call-to-action .button-primary,
 .call-to-action .button-primary,
 .background-secondary .button-primary {
 	border: none;
