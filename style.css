@@ -199,9 +199,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .background-secondary .button-primary {
 	border: none;
 }
-.woocommerce-page .site-header .button-primary {
-	font-size: 17px !important;
-}
 
 /* Positioning */
 .p-button-primary,
