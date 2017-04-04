@@ -188,110 +188,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	}
 
 	/*-----------------------------------------------
-	## Light Text
-	-----------------------------------------------*/
-	.line-lg {
-		border-top: 5px solid #fff;
-	}
-	.site-title a::before {
-		background-color: #fff;
-	}
-	.site-title a,
-	.site-title a:hover,
-	.site-title a:focus,
-	.site-header .fa:hover,
-	.site-header .fa:focus,
-	.site-description,
-	.slogan,
-	#secondary-menu,
-	#tertiary-menu,
-	#secondary-menu a,
-	#tertiary-menu a,
-	.menu-social li a:hover,
-	.menu-social li a:focus,
-	.widget-area caption,
-	.comment-reply-title,
-	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
-		color: #fff;
-	}
-	.woocommerce table.shop_table,
-	.shop_table td,
-	.shop_table thead tr th,
-	.shop_table tbody th,
-	.shop_table tfoot td,
-	.shop_table tfoot th  {
-		border: 1px solid #fff;
-	}
-
-	/*-----------------------------------------------
-	## Dark Text
-	-----------------------------------------------*/
-	.search-field,
-	input,
-	select,
-	textarea {
-		color: #121012;
-	}
-
-	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
-	/* #333 */
-	.button-primary,
-	.button-secondary,
-	.form-submit .submit,
-	.ninja-forms-field.btn,
-	.pager li > a {
-		border: 1px solid #333;
-	}
-	.showcoupon,
-	.showcoupon:hover,
-	.showcoupon:focus,
-	.woocommerce-message a,
-	.woocommerce-message a:hover,
-	.woocommerce-message a:focus,
-	.payment_method_paypal label a,
-	.payment_method_paypal label a:hover,
-	.payment_method_paypal label a:focus,
-	#payment .payment_box p,
-	#payment label,
-	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
-	.table > tbody > tr td,
-	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
-	#secondary .table-striped > tbody > tr #today a,
-	#footer-widget-area ul li,
-	#header-widget-area ul li {
-		color: #333;
-	}
-
-	/* #ccc */
-	.fa,
-	.menu-social li a {
-		color: #ccc;
-	}
-	.widget-area {
-		border: 1px solid #ccc;
-	}
-
-	/* #595053 */
-	.mod-blockquote p,
-	.mod-gamma h2 {
-		color: #595053;
-	}
-
-	/* WooCommerce */
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
-	}
 	&.error404 {
 		.list-group-item {
 			background: $palette-primary_4;
@@ -301,6 +199,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 			}
 		}
 	}
+
 	/*------------------------------------------------------------------------
 	# Tiny MCE
 	------------------------------------------------------------------------*/

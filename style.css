@@ -55,8 +55,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	width: 41.66666667%;
 }
 .background-clear {
-	width: 58.33333333%;
 	background: none;
+	width: 58.33333333%;
 }
 .background-secondary {
 	padding-bottom: 30px;
@@ -168,6 +168,54 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	}
 }
 
+.search-field,
+input,
+select,
+textarea {
+	color: #121012;
+}
+.table > tbody > tr td,
+#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
+#secondary .table-striped > tbody > tr #today a,
+#footer-widget-area ul li,
+#header-widget-area ul li {
+	color: #333;
+}
+.fa,
+.menu-social li a {
+	color: #ccc;
+}
+.widget-area {
+	border: 1px solid #ccc;
+}
+.mod-blockquote p,
+.mod-gamma h2 {
+	color: #595053;
+}
+.line-lg {
+	border-top: 5px solid #fff;
+}
+.site-title a::before {
+	background-color: #fff;
+}
+.site-title a,
+.site-title a:hover,
+.site-title a:focus,
+.site-header .fa:hover,
+.site-header .fa:focus,
+.site-description,
+.slogan,
+#secondary-menu,
+#tertiary-menu,
+#secondary-menu a,
+#tertiary-menu a,
+.menu-social li a:hover,
+.menu-social li a:focus,
+.widget-area caption,
+.comment-reply-title {
+	color: #fff;
+}
+
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
@@ -190,8 +238,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .form-submit .submit
 .ninja-forms-field.btn,
 .woocommerce .call-to-action .button-primary {
-	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-top: 15px;
 	padding: 8px 36px;
 }
 .woocommerce .call-to-action .button-primary,
@@ -199,12 +247,19 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .background-secondary .button-primary {
 	border: none;
 }
+.button-primary,
+.button-secondary,
+.form-submit .submit,
+.ninja-forms-field.btn,
+.pager li > a {
+	border: 1px solid #333;
+}
 
 /* Positioning */
 .p-button-primary,
 .gridblock .p-button-primary {
-	margin-top: 2.5em;
 	margin-bottom: 5em;
+	margin-top: 2.5em;
 }
 .call-to-action .p-button-primary {
 	margin-bottom: 0;
@@ -236,13 +291,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	height: 2px;
 	border: 0;
+	height: 2px;
 }
 .site-header .widget.well.widget_search,
 .site-footer .well {
+	background: transparent;	
 	border: none;
-	background: transparent;
 	box-shadow: none;
 }
 .table-striped > tbody > tr:nth-of-type(2n+1) {
@@ -255,8 +310,8 @@ ol {
 	padding-left: 0;
 }
 ul {
-	margin-left: 15px;
 	list-style-type: square;
+	margin-left: 15px;
 }
 ol {
 	margin-left: 25px;
@@ -266,14 +321,13 @@ ol {
 select,
 .state,
 .country {
-	padding: .313em;
-	height: 35px;
-	border: none;
-	border-radius: 1px;
 	background: url("images/form-arrow-down.png") 100% / 6% no-repeat #fff;
-
 	-webkit-appearance: none;
 	appearance: none;
+	border: none;
+	border-radius: 1px;
+	height: 35px;
+	padding: .313em;
 }
 .address_city {
 	width: 100% !important;
@@ -329,12 +383,12 @@ select,
 ------------------------------------------------------------------------*/
 /* Call To Action */
 .call-to-action {
-	margin-top: 0;
 	margin-left: 5px;
+	margin-top: 0;
 }
 .slogan {
-	margin-top: 0;
 	margin-bottom: 30px;
+	margin-top: 0;
 }
 
 /* Social Media */
@@ -362,13 +416,13 @@ select,
 -----------------------------------------------*/
 /* Nav Reset */
 .navbar {
+	background: none;
 	border: none;
 	border-radius: 0;
-	background: none;
 }
 .navbar-default {
-	margin-top: 1.8em;
 	margin-bottom: 0;
+	margin-top: 1.8em;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -463,8 +517,8 @@ select,
 }
 blockquote,
 .mod-blockquote {
-	padding-top: 0;
 	padding-bottom: 0;
+	padding-top: 0;
 }
 blockquote p,
 .mod-blockquote p {
@@ -495,11 +549,11 @@ blockquote p,
 	padding: 2em;
 }
 .mod-beta::after {
+	content: "";
+	border-right: 25px solid transparent;
+	height: 0;
 	position: absolute;
 	width: 0;
-	height: 0;
-	border-right: 25px solid transparent;
-	content: "";
 }
 .mod-beta,
 .mod-beta-1 {
@@ -509,9 +563,9 @@ blockquote p,
 	border-radius: 50%;
 }
 .mod-beta-2 {
-	margin-top: 1.5em;
-	margin-left: -30px;
 	list-style: none;
+	margin-left: -30px;
+	margin-top: 1.5em;
 }
 .mod-beta-2 li {
 	margin-bottom: 10px;
@@ -532,10 +586,10 @@ blockquote p,
 /* md */
 @media (min-width: 992px) {
 	.mod-beta:after {
-		top: 125px;
-		right: -10px;
 		bottom: inherit;
 		left: inherit;
+		right: -10px;
+		top: 125px;
 	}
 }
 
@@ -551,13 +605,14 @@ blockquote p,
 ------------------------------------------------------------------------*/
 /* 404 Page */
 .error404 .button-primary {
-	margin: 0;
 	border-radius: 0;
+	margin: 0;
 }
 .error404 .form-control,
 .error404 .list-group-item {
 	border-radius: 0;
 }
+
 /* Search Page */
 .search .jumbotron {
 	background: none;
@@ -581,8 +636,8 @@ blockquote p,
 	display: none;
 }
 .widget-area {
-	margin-top: 25px;
 	margin-bottom: 10px;
+	margin-top: 25px;
 	padding: 25px;
 }
 
@@ -613,12 +668,6 @@ blockquote p,
 -----------------------------------------------*/
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
-.woocommerce-product-rating {
-	padding-top: 15px;
 }
 
 /* Search Form */
