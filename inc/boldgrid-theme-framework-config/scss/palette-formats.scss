@@ -47,6 +47,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-footer .widget.well li > a:hover {
 		color: $text-contrast-palette-primary_1;
 	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $palette-primary_1;
+	}
 
 	/*-----------------------------------------------
 	## 2
@@ -114,7 +117,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	hr {
 		background: $palette-primary_4;
 	}
-	.button-secondary {
+	.button-secondary,
+	.mark,
+	mark {
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
@@ -173,7 +178,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-footer .well,
 	.site-footer .well caption,
 	.site-footer .well .table td,
-	.site-footer a {
+	.site-footer a,
+	#reviews #comments ol.commentlist li .meta {
 		color: $text-contrast-palette-primary_5;
 	}
 	.mod-blockquote,
