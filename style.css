@@ -656,6 +656,7 @@ blockquote p,
 	border-top: 1px solid transparent;
 }
 .panel {
+	background: none;
 	box-shadow: none;
 }
 
@@ -666,9 +667,6 @@ blockquote p,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce div.product .woocommerce-tabs .panel {
-	background: none;
-}
 .woocommerce-account p.order-again .btn.button-primary {
 	padding: 12px 24px;
 }
