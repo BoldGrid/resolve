@@ -39,7 +39,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'13' => array( '[action]home_spacer' ),
 	);
 
-	// Assign Locations for Generic Header.
+	// Assign Locations for Generic Footer.
 	$boldgrid_framework_configs['template']['locations']['footer'] = array(
 		'1' => array( '[widget]boldgrid-widget-3' ),
 		'5' => array( '[menu]footer_center' ),
@@ -172,18 +172,17 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * Widgets
 	 */
-	$widget_markup['call-to-action'] = <<<HTML
+	$widget_markup['call-to-action'] = '
 		<div class="container">
 			<div class="row call-to-action-wrapper">
 				<div class="col-md-12">
 					<div class="call-to-action">
 						<h2 class="h4 slogan">INSIGHT. CULTURE. PASSION.</h2>
-						<a class="button-primary" href="about-us">OUR STORY</a>
+						<a class="button-primary" href="' . get_site_url( null, 'about-us' ) . '">OUR STORY</a>
 					</div>
 				</div>
 			</div>
-		</div>
-HTML;
+		</div>';
 
 	// Widget 1.
 	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array(
