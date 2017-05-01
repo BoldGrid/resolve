@@ -214,3 +214,11 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		color: $text-contrast-palette-primary_5;
 	}
 }
+
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
+.palette-primary.woocommerce .color1-color,
+.palette-primary.woocommerce p.price.color2-color {
+	color: $palette-primary_4 !important;
+}
