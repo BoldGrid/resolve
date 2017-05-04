@@ -228,3 +228,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 .palette-primary.woocommerce .color-2-text-contrast {
 	color: $text-contrast-palette-primary_4 !important;
 }
+.palette-primary.woocommerce div.product .stock.out-of-stock {
+	color: $palette-primary_4;
+}
+.palette-primary.woocommerce div.product .stock {
+	color: $text-contrast-palette-primary_5;
+}
