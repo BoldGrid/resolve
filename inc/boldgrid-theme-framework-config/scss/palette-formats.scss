@@ -200,11 +200,79 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar {
 		background: $text-contrast-palette-primary_5;
-	}	
+	}
+
+	/*-----------------------------------------------
+	## Light Text
+	-----------------------------------------------*/
+	.line-lg {
+		border-top: 5px solid #fff;
+	}
+	.site-title a::before {
+		background-color: #fff;
+	}
+	.site-title a,
+	.site-title a:hover,
+	.site-title a:focus,
+	.site-header .fa:hover,
+	.site-header .fa:focus,
+	.site-description,
+	.slogan,
+	#secondary-menu,
+	#tertiary-menu,
+	#secondary-menu a,
+	#tertiary-menu a,
+	.menu-social li a:hover,
+	.menu-social li a:focus,
+	.widget-area caption,
+	.comment-reply-title {
+		color: #fff;
+	}
+
+	/*-----------------------------------------------
+	## Dark Text
+	-----------------------------------------------*/
+	.search-field,
+	input,
+	select,
+	textarea {
+		color: #121012;
+	}
 
 	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
+	/* #333 */
+	.button-primary,
+	.button-secondary,
+	.form-submit .submit,
+	.ninja-forms-field.btn,
+	.pager li > a {
+		border: 1px solid #333;
+	}
+	.table > tbody > tr td,
+	#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
+	#secondary .table-striped > tbody > tr #today a,
+	#footer-widget-area ul li,
+	#header-widget-area ul li {
+		color: #333;
+	}
+
+	/* #ccc */
+	.fa,
+	.menu-social li a {
+		color: #ccc;
+	}
+	.widget-area {
+		border: 1px solid #ccc;
+	}
+
+	/* #595053 */
+	.mod-blockquote p,
+	.mod-gamma h2 {
+		color: #595053;
+	}
+
 	&.error404 {
 		.list-group-item {
 			background: $palette-primary_4;

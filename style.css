@@ -170,54 +170,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	}
 }
 
-.search-field,
-input,
-select,
-textarea {
-	color: #121012;
-}
-.table > tbody > tr td,
-#secondary .table-striped > tbody > tr:nth-child(2n+1) td,
-#secondary .table-striped > tbody > tr #today a,
-#footer-widget-area ul li,
-#header-widget-area ul li {
-	color: #333;
-}
-.fa,
-.menu-social li a {
-	color: #ccc;
-}
-.widget-area {
-	border: 1px solid #ccc;
-}
-.mod-blockquote p,
-.mod-gamma h2 {
-	color: #595053;
-}
-.line-lg {
-	border-top: 5px solid #fff;
-}
-.site-title a::before {
-	background-color: #fff;
-}
-.site-title a,
-.site-title a:hover,
-.site-title a:focus,
-.site-header .fa:hover,
-.site-header .fa:focus,
-.site-description,
-.slogan,
-#secondary-menu,
-#tertiary-menu,
-#secondary-menu a,
-#tertiary-menu a,
-.menu-social li a:hover,
-.menu-social li a:focus,
-.widget-area caption,
-.comment-reply-title {
-	color: #fff;
-}
-
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
@@ -248,13 +200,6 @@ textarea {
 .call-to-action .button-primary,
 .background-secondary .button-primary {
 	border: none;
-}
-.button-primary,
-.button-secondary,
-.form-submit .submit,
-.ninja-forms-field.btn,
-.pager li > a {
-	border: 1px solid #333;
 }
 
 /* Positioning */
