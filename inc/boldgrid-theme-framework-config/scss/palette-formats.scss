@@ -72,13 +72,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
-	.dropdown-menu {
-		background: transparent;
-	}
-	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-		background: transparent;
-		color: $palette-primary_1;
-	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -128,6 +121,7 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	## 5
 	-----------------------------------------------*/
 	.background-primary,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
 	.background-accent,
 	.sliver-left,
 	.sliver-right,
@@ -191,6 +185,9 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	}
 	.panel-default {
 		border-color: $palette-primary_5;
+	}
+	.dropdown-menu {
+		background: $palette-primary_5;
 	}
 
 	/*-----------------------------------------------
