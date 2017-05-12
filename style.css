@@ -152,7 +152,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .mod-img-circle,
 .p-button-primary,
 .p-button-secondary,
-.navbar {
+.navbar,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	text-align: center;
 }
 
@@ -163,7 +164,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	.mod-img-circle,
 	.gridblock .p-button-primary,
 	.gridblock .p-button-secondary,
-	.navbar {
+	.navbar,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
 }

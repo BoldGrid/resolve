@@ -50,6 +50,12 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	#reviews #comments ol.commentlist li .comment-text {
 		border: 1px solid $palette-primary_1;
 	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: $palette-primary_1;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: $palette-primary_1;
+	}	
 
 	/*-----------------------------------------------
 	## 2
@@ -186,9 +192,15 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.panel-default {
 		border-color: $palette-primary_5;
 	}
-	.dropdown-menu {
+	.dropdown-menu,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
 		background: $palette-primary_5;
 	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background: $text-contrast-palette-primary_5;
+	}	
 
 	/*-----------------------------------------------
 	## Et Cetera
