@@ -250,6 +250,11 @@ hr {
 .table-striped > tbody > tr:nth-of-type(2n+1) {
 	background: transparent;
 }
+input,
+select,
+textarea {
+	color: #121012;
+}
 
 /* Lists */
 ul,
