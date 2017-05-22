@@ -14,8 +14,6 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	## 1
 	-----------------------------------------------*/
 	.button-primary,
-	.form-submit .submit,
-	.ninja-forms-field.btn,
 	.call-to-action .button-primary:hover,
 	.call-to-action .button-primary:focus,
 	.background-secondary .button-primary:hover,
@@ -176,10 +174,6 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	.button-primary:focus,
 	.button-secondary:hover,
 	.button-secondary:focus,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
-	.ninja-forms-field.btn:hover,
-	.ninja-forms-field.btn:focus,
 	.pager li > a:hover,
 	.pager li > a:focus {
 		background: none;
@@ -260,8 +254,6 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	/* #333 */
 	.button-primary,
 	.button-secondary,
-	.form-submit .submit,
-	.ninja-forms-field.btn,
 	.pager li > a {
 		border: 1px solid #333;
 	}

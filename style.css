@@ -114,10 +114,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .button-primary:focus,
 .button-secondary:hover,
 .button-secondary:focus,
-.form-submit .submit:hover,
-.form-submit .submit:focus,
-.ninja-forms-field.btn:hover,
-.ninja-forms-field.btn:focus,
 .menu-social li a:hover,
 .menu-social li a:focus,
 .site-info a:hover,
@@ -189,8 +185,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 .button-primary,
 .button-secondary,
-.form-submit .submit
-.ninja-forms-field.btn,
 .woocommerce .call-to-action .button-primary {
 	margin-bottom: 15px;
 	margin-top: 15px;
