@@ -280,6 +280,9 @@ ol {
 .social-menu {
 	margin-top: 1.8em;
 }
+#header-widget-area {
+  padding: 20px 0;
+}
 
 /* sm */
 @media (min-width: 768px) {
