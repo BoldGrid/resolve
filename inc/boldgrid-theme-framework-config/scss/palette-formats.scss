@@ -279,7 +279,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 # Additional Body Classes
 ------------------------------------------------------------------------*/
 .palette-primary.woocommerce .color1-color,
-.palette-primary.woocommerce p.price.color2-color {
+.palette-primary.single-product .color2-color,
+.palette-primary.woocommerce div.product span.price {
 	color: $palette-primary_4 !important;
 }
 .palette-primary.woocommerce .color2-background-color {
@@ -287,9 +288,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 }
 .palette-primary.woocommerce .color-2-text-contrast {
 	color: $text-contrast-palette-primary_4 !important;
-}
-.palette-primary.woocommerce div.product .stock.out-of-stock {
-	color: $palette-primary_4;
 }
 .palette-primary.woocommerce div.product .stock {
 	color: $text-contrast-palette-primary_5;
