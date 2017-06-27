@@ -72,7 +72,8 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	/*-----------------------------------------------
 	## 3
 	-----------------------------------------------*/
-	.background-secondary {
+	.background-secondary,
+	.site-header .well {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
@@ -84,12 +85,10 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 		background-color: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
-	.site-header .well,
 	.site-header .widget.well.widget_search .button-primary:hover {
 		background: $palette-primary_3;
 	}
 	.site-header .well caption,
-	.site-header .well,
 	.site-header .table > tbody > tr td,
 	.site-header .widget.well a {
 		color: $text-contrast-palette-primary_3;
@@ -101,12 +100,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	a,
 	a:hover,
 	a:focus,
-	.link-primary,
-	.link-primary:hover,
-	.link-primary:focus,
-	.link-secondary,
-	.link-secondary:hover,
-	.link-secondary:focus,
 	.mod-blockquote p,
 	.mod-gamma h2 {
 		color: $palette-primary_4;
@@ -165,8 +158,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.comments-area,
 	.mod-alpha,
 	.mod-beta-2,
-	.site-info a,
-	.attribution a,
 	.content-area .fa:hover,
 	.content-area .fa:focus,
 	.site-footer .well,
@@ -213,14 +204,10 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.site-header .fa:focus,
 	.site-description,
 	.slogan,
-	#secondary-menu,
-	#tertiary-menu,
 	#secondary-menu a,
 	#tertiary-menu a,
 	.menu-social li a:hover,
-	.menu-social li a:focus,
-	.widget-area caption,
-	.comment-reply-title {
+	.menu-social li a:focus {
 		color: #fff;
 	}
 
@@ -245,9 +232,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	.fa,
 	.menu-social li a {
 		color: #ccc;
-	}
-	.widget-area {
-		border: 1px solid #ccc;
 	}
 
 	/* #595053 */
@@ -288,7 +272,4 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 }
 .palette-primary.woocommerce .color-2-text-contrast {
 	color: $text-contrast-palette-primary_4 !important;
-}
-.palette-primary.woocommerce div.product .stock {
-	color: $text-contrast-palette-primary_5;
 }

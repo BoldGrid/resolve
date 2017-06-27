@@ -102,8 +102,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .woocommerce-message a,
 .showcoupon,
 #today a,
-.site-info a,
-.attribution a,
 .site-header .widget.well .table a,
 .site-footer .widget a {
 	text-decoration: underline;
@@ -116,25 +114,14 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .button-secondary:focus,
 .menu-social li a:hover,
 .menu-social li a:focus,
-.site-info a:hover,
-.site-info a:focus,
-.attribution a:hover,
-.attribution a:focus,
 .showcoupon:hover,
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
-.payment_method_paypal label a:focus,
-.woocommerce-message a:hover,
-.woocommerce-message a:focus,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus {
+.payment_method_paypal label a:focus {
 	text-decoration: none;
 }
 #footer-widget-area {
 	text-align: left;
-}
-.menu-social li a {
-	text-align: right;
 }
 
 /* xs */
@@ -341,10 +328,6 @@ ol {
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/
-#secondary-menu,
-#tertiary-menu {
-	background: none;
-}
 .boldgrid-framework-menu li {
 	display: inline-block;
 }
@@ -376,12 +359,6 @@ ol {
 -----------------------------------------------*/
 .menu-social li a {
 	padding: 0 5px;
-}
-
-@media (min-width: 992px) {
-	.attribution {
-		padding-bottom: 0;
-	}
 }
 
 /*------------------------------------------------------------------------
@@ -523,20 +500,8 @@ blockquote p,
 .home .entry-header .line-sm {
 	display: none;
 }
-.widget-area {
-	margin-bottom: 10px;
-	margin-top: 25px;
-	padding: 25px;
-}
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
-.footer-center-items {
-	padding: 0;
-}
 .panel-default > .panel-heading {
 	border: none;
 }
@@ -557,11 +522,6 @@ blockquote p,
 -----------------------------------------------*/
 .woocommerce-account p.order-again .btn.button-primary {
 	padding: 12px 24px;
-}
-
-/* Search Form */
-.form-control {
-	display: inline-block;
 }
 
 /*------------------------------------------------------------------------
