@@ -215,7 +215,6 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
-	/* #333 */
 	.button-primary,
 	.button-secondary,
 	.pager li > a {
@@ -228,19 +227,14 @@ $rgba_2 : rgba($palette-primary_2, 0.6);
 	#header-widget-area ul li {
 		color: #333;
 	}
-
-	/* #ccc */
 	.fa,
 	.menu-social li a {
 		color: #ccc;
 	}
-
-	/* #595053 */
 	.mod-blockquote p,
 	.mod-gamma h2 {
 		color: #595053;
 	}
-
 	&.error404 {
 		.list-group-item {
 			background: $palette-primary_4;

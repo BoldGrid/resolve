@@ -124,7 +124,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	text-align: left;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 #secondary-menu,
 .mod-beta,
 .mod-beta-1,
@@ -140,8 +140,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	text-align: center;
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -203,8 +203,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	display: inline;
 }
 
-/* Extra Small Devices, Phones (xs) */
-@media only screen and ( min-width : 480px ) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -271,8 +271,8 @@ ol {
   padding: 20px 0;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.line-lg {
 		margin-top: 120px;
 	}
@@ -289,7 +289,6 @@ ol {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	background: none;
 	border: none;
@@ -306,19 +305,17 @@ ol {
 .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
 }
-
-/* Links */
 .navbar-default .navbar-nav > li > a {
 	padding: 3px 15px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .navbar-default .navbar-nav {
 	margin-left: -30px;
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default .navbar-nav {
 		float: right;
 		margin-left: -15px;
@@ -436,20 +433,20 @@ blockquote p,
 	margin-bottom: 10px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .mod-beta:after {
 	bottom: -30px;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.mod-beta {
 		border: none;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.mod-beta:after {
 		bottom: inherit;
 		left: inherit;
