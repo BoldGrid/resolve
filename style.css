@@ -402,6 +402,7 @@ blockquote p,
 }
 .line-sm {
 	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 /*-----------------------------------------------
@@ -494,7 +495,7 @@ blockquote p,
 	padding-top: 15px;
 }
 .post-title-hidden .line-sm,
-.home .entry-header .line-sm {
+.page-template-page_home .entry-header .line-sm {
 	display: none;
 }
 
