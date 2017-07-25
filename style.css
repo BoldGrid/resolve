@@ -525,7 +525,7 @@ blockquote p,
 /*-----------------------------------------------
 ## The Events Calendar
 -----------------------------------------------*/
-.tribe-events-style-theme .line-sm {
+.post-type-archive-tribe_events .line-sm {
 	display: none;
 }
 
