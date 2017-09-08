@@ -160,12 +160,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .page-template-page_home .row-line {
 	display: none;
 }
-.hentry {
-	margin: 0 auto;
-}
-.hentry:first-child ~ .hentry {
-	margin-top: 50px;
-}
 
 /*-----------------------------------------------
 ## Buttons
@@ -268,7 +262,7 @@ ol {
 	margin-top: 1.8em;
 }
 #header-widget-area {
-  padding: 20px 0;
+	padding: 20px 0;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -497,6 +491,9 @@ blockquote p,
 .post-title-hidden .line-sm,
 .page-template-page_home .entry-header .line-sm {
 	display: none;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
